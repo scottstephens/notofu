@@ -1,0 +1,8 @@
+[project]
+name = "notofu-ca-client"
+version = "0.1.0"
+description = "Certificate Authority client for notofu"
+requires-python = ">=3.13"
+dependencies = [
+    "requests",
+]

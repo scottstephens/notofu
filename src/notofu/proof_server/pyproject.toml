@@ -1,0 +1,17 @@
+[project]
+name = "notofu-proof-server"
+version = "0.1.0"
+description = "Proof server for notofu"
+requires-python = ">=3.13"
+dependencies = [
+    "botocore",
+    "fastapi",
+    "uvicorn[standard]",
+    "requests",
+    "notofu-signer"
+]
+
+[dependency-groups]
+dev = [
+    "fastapi[standard]>=0.116.1",
+]
