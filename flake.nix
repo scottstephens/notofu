@@ -16,10 +16,11 @@
           buildInputs = with pkgs; [
             python3
             uv
+            awscli
           ];
 
           shellHook = ''
-            export PS1="[sysadmin shell]$ "
+            export PS1="[notofu shell]$ "
           '';
         };
       });

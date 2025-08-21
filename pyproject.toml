@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Tools to avoid relying on trust on first use for SSH host keys"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "boto3",
+    "requests",
+]
 
 [tool.uv]
 python-preference = "system"
