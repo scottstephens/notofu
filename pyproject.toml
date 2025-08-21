@@ -5,7 +5,7 @@ description = "Tools to avoid relying on trust on first use for SSH host keys"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "boto3",
+    "botocore",
     "requests",
 ]
 
