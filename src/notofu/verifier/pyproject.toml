@@ -4,5 +4,6 @@ version = "0.1.0"
 description = "Verifying functionality for notofu"
 requires-python = ">=3.13"
 dependencies = [
-    "requests"
+    "requests",
+    "xmltodict"
 ]

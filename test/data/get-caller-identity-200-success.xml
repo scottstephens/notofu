@@ -1,0 +1,10 @@
+<GetCallerIdentityResponse xmlns="https://sts.amazonaws.com/doc/2011-06-15/">
+  <GetCallerIdentityResult>
+    <Arn>arn:aws:sts::517819573066:assumed-role/aws:ec2-instance/i-0227500dce906fc16</Arn>
+    <UserId>517819573066:aws:ec2-instance:i-0227500dce906fc16</UserId>
+    <Account>517819573066</Account>
+  </GetCallerIdentityResult>
+  <ResponseMetadata>
+    <RequestId>239ad5b8-c0d4-48d7-80f4-257a9d42c6e6</RequestId>
+  </ResponseMetadata>
+</GetCallerIdentityResponse>
